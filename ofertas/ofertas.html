@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <title>La Espera</title>
+</head>
+<body>
+    <header id="header" style="background-image: url('../images/cementerio.jpg'); background-size: 100%;">
+        <div class="content">
+            <h1><a href="#">La Espera</a></h1>
+            <p>No dejes nada suelto.</p>
+            <ul class="actions">
+                <li><a href="../index.html#one" class="button primary icon solid fa-chevron-down scrolly">Sobre nosotros</a></li>
+                <li><a href="../index.html#two" class="button primary icon solid fa-chevron-down scrolly">Quienes somos</a></li>
+            </ul>
+        </div>
+        <div class="inner"><img src="../images/logo.png" alt="" style="width: 65%; margin-left:90px "/></div>
+    </header>
+
+    <section class="wrapper style2 special">
+        <ul style="list-style: none;">
+            <li>
+                <h1 style="font-size: 35px; text-decoration: underline;">Nuestros servicios</h1>
+                <h1 style="font-size: 15px;">(Producto)</h1>
+                <div>
+                    <p>
+                        La Espera ofrece en los momentos difíciles, un servicio eficaz, respetuoso y humano.<br>
+                        Gestionamos todo el proceso, tanto en Granada capital, como en cualquier otra localidad, con un servicio personalizado de la máxima calidad.<br>
+                            Nuestros servicios funerarios son integrales: tanatorio, crematorio y gestión del entierro tanto pre como post mortem.
+                        </p>
+                    </div>
+                </li>
+                <br>
+                <hr>
+                <li>
+                    <h1 style="font-size: 35px; text-decoration: underline;">Nuestras ofertas</h1>
+                    <h1 style="font-size: 15px;">(Precio)</h1>
+                <div style="display: flex; justify-content: space-around;">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 20px;"><b>Paquete post-mórtem estándar:</b></h5>
+                          <h6 class="card-subtitle mb-2 text-muted">~5.000€</h6>
+                          <p class="card-text">Paquete esencial para ayudar en los momentos difíciles.</p>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPostEstandar">
+                              Más información
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 20px;"><b>Paquete post-mórtem personalizado:</b></h5>
+                            <h6 class="card-subtitle mb-2 text-muted">+5.000€</h6>
+                            <p class="card-text">Paquete enfocado a despedir de la mejor manera a su familiar.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPostPersonalizado">
+                                Más información
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 20px;"><b>Paquete pre-mórtem personalizado:</b></h5>
+                            <h6 class="card-subtitle mb-2 text-muted">+5.000€</h6>
+                            <p class="card-text">Paquete pensado para aquellos que se quieran ir a lo grande.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPostPersonalizado">
+                                Más información
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="modal fade" id="modalPostPersonalizado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Servicios del paquete:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPostEstandar">
+                                    Servicios básicos
+                                </button><br><br>
+                                - Planificación del entierro*.<br>
+                                - Personalización de la ceremonia*.<br>
+                                - Cátering.<br>
+                            </div>
+                            <div class="modal-footer">
+                                <h6 class="card-subtitle mb-2 text-muted" style="text-align: left; width: 70%;">*: Dentro de la legislación vigente.</h6>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modalPostEstandar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Servicios del paquete:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <table>
+                                    <thead>
+                                        <td>Servicio</td>
+                                        <td>Precio</td>
+                                    </thead>
+                                    <tr>
+                                        <td>Coche fúnebre</td>
+                                        <td>200€</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Embalsamamiento</td>
+                                        <td>2.000€</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sudario</td>
+                                        <td>15€</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ataúd</td>
+                                        <td>1.200€</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cremación</td>
+                                        <td>950€</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Urna*</td>
+                                        <td>30€</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Alquiler del sitio de reposo final</td>
+                                        <td>5 años -> 420€
+                                            <br>
+                                            75 años -> 1.500€</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Certificado médico</td>
+                                        <td>150€</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Últimas voluntades</td>
+                                        <td>400€</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <h6 class="card-subtitle mb-2 text-muted" style="text-align: left; width: 70%;">*: Urna estándar</h6>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <br>
+            <hr>
+            <li>
+                <h1 style="font-size: 35px; text-decoration: underline;">Dónde encontrarnos</h1>
+                <h1 style="font-size: 15px;">(Punto de venta)</h1>
+                <div class="localizacion" style="justify-content: space-around;">
+                    <div style="width: 40%;">
+                        <h4>Oficina:</h4>
+                        <p>
+                            Ubicada en una zona céntrica del barrio de la Chana para una mayor proximidad y comodidad de los familiares.<br>
+                            Gestión de papeleo, archivo, planificación de paquetes personalizados.
+                        </p>
+                        <p>C/ Estrellas, Barrio la Chana.</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d668.1698405479597!2d-3.6274728137130547!3d37.19145662307507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fc51321fc67d%3A0xf486c340bc9b2bf9!2sC.%20Estrellas%2C%2018015%20Granada!5e0!3m2!1ses!2ses!4v1702281866745!5m2!1ses!2ses"
+                            width="600"
+                            height="300"
+                            style="border:1px solid black; border-radius: 25px;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div style="width: 40%;">
+                        <h4>Tanatorio:</h4>
+                        <p>
+                            Localizado en las afueras de la ciudad por nuestro compromiso con el medio ambiente y motivos de salubridad.<br>
+                            Almacenamiento, embalsamamiento, cremación, velatorio.
+                        </p>
+                        <p>C/ Maniño, Polígono industrial el Florío.</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.220788210517!2d-3.635526623684216!3d37.19817396023221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fc4cdd84936d%3A0x5f4091cbc31f88f4!2sC.%20Mani%C3%B1os%2C%2018014%2C%20Granada!5e0!3m2!1ses!2ses!4v1702281916357!5m2!1ses!2ses"
+                            width="600"
+                            height="300"
+                            style="border:1px solid black; border-radius: 25px;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        <br><hr>
+        <h1 style="font-size: 15px;">(Promoción)</h1>
+        <img src="../images/h1.png" style="width: 80%;" alt="">
+        <img src="../images/h2.png" style="width: 80%;" alt="">
+        <img src="../images/h3.png" style="width: 80%;" alt="">
+        <img src="../images/h4.png" style="width: 80%;" alt="">
+        <div style="display: flex; justify-content: center;">
+            <img src="../images/v1.png" style="width: 30%; margin: 10px;" alt="">
+            <img src="../images/v2.png" style="width: 30%; margin: 10px;" alt="">
+        </div>
+    </section>
+    <footer id="footer">
+        
+        <p class="copyright">&copy; La Espera S.L.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    </body>
+    </html>
